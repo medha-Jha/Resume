@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medha-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins' , sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18,18,62);
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li{
+      list-style: none;
+      margin: 0 23px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+        }
+        nav ul li a:hover{
+            color:rgb(153, 153, 226);
+            font-size: 1.04rem;
+            }
+
+      .left{
+        font-size: 1.5rem;
+      }
+      .firstsection{
+        display: flex;
+        justify-content: space-around;
+        margin: 105px 0;
+        
+        align-items: center;
+       
+      }
+      .firstsection > div{
+        width:30%;
+}
+      .leftsection{
+      
+        font-size: 2.5rem;
+      }
+      .leftsection .button{
+        padding: 50px 0;
+      }
+
+    .leftsection .btn:hover{
+       color: aquamarine;
+       font-size: 2rem;
+      }
+      .leftsection .btn{
+      
+      padding: 12px;
+      color:#1e2167;
+      background-color: plum; 
+      border: 2px solid white;
+      border-radius: 6px;
+      font-size: 20px;
+      cursor: pointer;
+      
+      }
+      
+      .rightsection img{
+       width: 105%;
+       height: 40vh;
+       margin: 50px 0;
+       
+      }
+      .purple{
+        color: rgb(170,107,228);
+      }
+      #element{
+        color: rgb(170,107,228);
+      }
+      .secondSection{
+        margin: auto;
+        max-width: 80vw;
+        height: 80vh;
+      }
+      .secondSection h1{
+        font-size: 1.9rem;
+      }
+      .secondSection h1:hover{
+        color: #9c97f1;
+        font-size: 2rem;
+      }
+      .secondSection .box{
+        background: white;
+        width: 75vw;
+        height:2px;
+        margin:56px 0;
+        display: flex;
+       }
+       .secondSection .vertical{
+height: 80px;
+width: 1px;
+background-color:white;
+margin: 0 150px;
+       }
+      
+      main hr{
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .text-gray{
+        color:gray;
+      }
+      .vertical-title{
+       position: relative;
+       top:50px;
+       width: 120px;
+       font-size: 16px;
+       
+     }
+      .vertical-desc{
+        position: relative;
+    top: 145px;
+    width: 141px;
+    font-size: 11px;
+    margin: 0 -74px;
+    right: 80px;
+      }
+      .vertical-desc:hover{
+     color:#9c97f1;
+     font-size:1rem;
+      }
+      .image-top{
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      
+      }
+      footer{
+        background-color: #0e0e1a;
+      
+       
+      }
+      .footer{
+        display: flex;
+        padding: 45px 122px;
+        justify-content: space-evenly;
+      }
+      .footer > div{
+width: 223px;
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer-Forth ul li a:hover{
+        font-size: 1.5rem;
+        color:cyan;
+      }
+      .footer-right{
+      text-align: center; 
+      color: gray;
+      padding: 12px 0; 
+      }
+      
+    </style>
+  </head>
+  <body>
+ 
+    <header>
+      <nav>
+        <div class="left"> Medha Portfolio</div>
+        <div class="right">
+            <ul>
+                <!--use multi cursor functionality-->
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">Medha</span>
+                <div>and I am computer science student</div>
+                 <!-- Element to contain animated typing -->
+              <span id="element"></span>
+              <div class="button">
+                <button class="btn"><a href="https://github.com/medha-Jha/Resume">Download Resume</a></button>
+                <button class="btn"><a href="https://github.com/dashboard">Visit Github</a></button>
+              </div>
+
+            </div>
+            <div class="rightsection"><img src="devp2.png" alt=""></div>
+        </section>
+
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What i have done</span>
+            <h1>Education</h1>
+            <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="schol.png" alt="">
+            <div class="vertical-title">MATRICULATION (2018-2019)</div>
+          </div>
+          <div class="vertical-desc">Centeal Board of Secondary Education 
+            Subject specialization in Maths,English,Science,Computer</div>
+
+            
+         
+
+            <div class="vertical">
+              <img class="image-top" src="schol.png" alt="">
+                <div class="vertical-title">INTERMEDIATE (2020-2021)</div>
+              </div>
+              <div class="vertical-desc">Centeal Board of Secondary Education
+                Subject specialization in Maths,chemistry,English,Computer</div>
+
+              <div class="vertical">
+                <img class="image-top" src="schol.png" alt="">
+                <div class="vertical-title">BCA Course (2022-2025)</div>
+              </div>
+              <div class="vertical-desc">School Of Management Sciences <br>
+                Relevant Courcework : Datastructure and Algorithm,Operating System,Web Development,DBMS,OOPS </div>
+
+                <div class="vertical">
+                  <img class="image-top" src="schol.png" alt="">
+                  <div class="vertical-title">Other course (2021-2022)</div>
+                </div>
+                <div class="vertical-desc">Learn about basic Fundamental of computer, Ms world,Ms office
+                  Corel draw,Excel powerpoint  </div>
+              </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+   
+          <div class="footer-first">
+            <h3>Skills, Achivments <br>And Projects</h3>
+          </div>
+          <div class="footer-Second">
+            <ul>
+              <li>Leadership</li>
+              <li>Problem Soving</li>
+              <li>Time-Management</li>
+              <li>Group Work</li>
+            </ul>
+          </div>
+          <div class="footer-Third">
+            <ul>
+              <li><a href="https://www.geeksforgeeks.org/user/jhaguf74r/">Geeks for Geeks</a></li>
+              <li>Python Certificate</li>
+              <li>Coding Certificate</li>
+              <li>Web Development Certificate</li>
+            </ul>
+          </div>
+          <div class="footer-Forth">
+            <ul>
+              <li><a href="p.html">Bounce Ball</a></li>
+              <li><a href="Periodic Table.html"> Periodic Table</a></li>
+              <li><a href="exe41.html">Ultra Layout</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-right">
+           copyright &#169; www.medhaportfolio.com | All rights reserved
+        </div>
+      
+    </footer>
+    <!---setup and start animation-->
+     <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Welcome in </i>Coding Word', 'I am Passionate','Web Developer','Lanuguages'],
+          typeSpeed: 50,
+        });
+      </script>
+  </body>
+</html>
